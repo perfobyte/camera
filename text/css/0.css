@@ -1,0 +1,19 @@
+@import "./camera/i.css";
+@import "./df.css";
+@import "./var.css";
+
+@font-face {
+    font-family: 'monts';
+    src: url('/f/font/ttf/monts.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#ap, #ap > * {
+    width:0;
+    height:0;
+}
+
+#ap > canvas {
+    display:none;
+}
